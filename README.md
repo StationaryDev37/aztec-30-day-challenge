@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1000003063.png" width="500" alt="StationaryDev37 Shrimping to ZK">
+  <img src="20260106-123312.png" width="500" alt="StationaryDev37 Shrimping to ZK">
 </p>
 🚢 StationaryDev37: Aztec 30-Day Challenge
 Day 1: Maiden Voyage

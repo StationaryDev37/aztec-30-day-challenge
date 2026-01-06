@@ -15,4 +15,4 @@ Proof: 5 $AZTEC-test sent to vault.
 * **Infrastructure:** Successfully deployed both the **Account Contract** and the **SimpleToken** contract.
 
 **Visual Evidence of Chain Success:**
-![Aztec Success Logs](71be1340-0262-44dc-808f-1f4d4b0c49eb.png)
+![Aztec Success Logs](Screenshot_20260106-141716_Phantom.png)

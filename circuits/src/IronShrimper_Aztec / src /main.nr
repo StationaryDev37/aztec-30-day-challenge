@@ -1,3 +1,24 @@
+contract IronShrimper {
+    // 1. IMPORTS GO HERE (at the very top)
+    use dep::aztec::protocol_types::address::AztecAddress;
+    use dep::aztec::state_vars::{Map, PublicMutable, PrivateSet};
+    // ... other imports
+
+    // 2. STORAGE PLACEMENT (Right here!)
+    #[storage]
+    struct Storage {
+        balances: Map<AztecAddress, EasyPrivateUint>,
+        badges: PrivateSet<BadgeNote>,
+        total_badges: PublicMutable<u32>,
+    }
+
+    // 3. FUNCTIONS GO BELOW (Constructor, Transfer, etc.)
+    #[aztec(initializer)]
+    fn constructor(admin: AztecAddress) {
+        // initialization logic
+    }
+}
+
 // Inside your main.nr contract scope
 #[private]
 fn transfer(to: AztecAddress, amount: u128) {

@@ -1,3 +1,7 @@
+✅ $SHRP Scarcity: 25k Hard Cap.
+✅ Syndicate Rev: 5% Legacy Fee Automated.
+✅ Family First: 2033 & 2035 ZK-Time-Locks.
+✅ Elite Access: 50 Ironclad Badges only.
 The Mission Statement: "Building a 10-year private bridge for W'yatt (2033) and Julianna (2035) using Aztec ZK-Rollups".
 The Security Architecture: Mention that the keys are backed up in a Proton Secure Node (srv-node-8821@proton.me) and verified with a Recovery Kit.
 The Logic Rules: Define the 50-Badge Hard Cap and the 5% Generation Fee so the community knows the rules of the sea.

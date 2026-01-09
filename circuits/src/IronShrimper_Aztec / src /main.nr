@@ -91,3 +91,21 @@ fn transfer(to: AztecAddress, amount: u128) {
     token_utils::increment_balance(context, to, transfer_amount);
     token_utils::increment_balance(context, syndicate_wallet, fee); // The "Gangster" cut 🥷
 }
+// The "Iron Shrimper" Hard Cap Law
+global MAX_IRON_SHRIMPERS: u32 = 50;
+
+fn verify_badge_supply(current_count: u32) {
+    // This is the "Brawn" of the circuit. 
+    // If current_count is 50, the transaction REJECTS.
+    assert(current_count < MAX_IRON_SHRIMPERS, "The Iron Shrimper Crew is Full!");
+}
+
+#[test]
+fn test_hard_cap() {
+    // This test passes because 49 is less than 50
+    verify_badge_supply(49);
+}
+
+
+
+Is that in place?
